@@ -15,7 +15,6 @@
 		245FE95C2408E65000A2E358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245FE95A2408E65000A2E358 /* LaunchScreen.storyboard */; };
 		245FE9642408E79500A2E358 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245FE9632408E79500A2E358 /* MainController.swift */; };
 		245FE9672408ECF600A2E358 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = 245FE9662408ECF600A2E358 /* LBTATools */; };
-		245FE9692408FB3700A2E358 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 245FE9682408FB3700A2E358 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,7 @@
 		245FE95B2408E65000A2E358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		245FE95D2408E65000A2E358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245FE9632408E79500A2E358 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		245FE9682408FB3700A2E358 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		245FE96B2408FD1900A2E358 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +45,6 @@
 		245FE9432408E64F00A2E358 = {
 			isa = PBXGroup;
 			children = (
-				245FE9682408FB3700A2E358 /* Readme.md */,
 				245FE94E2408E64F00A2E358 /* Facebook */,
 				245FE94D2408E64F00A2E358 /* Products */,
 			);
@@ -71,6 +69,7 @@
 				245FE95D2408E65000A2E358 /* Info.plist */,
 				245FE9572408E65000A2E358 /* Preview Content */,
 				245FE9632408E79500A2E358 /* MainController.swift */,
+				245FE96B2408FD1900A2E358 /* README.md */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
@@ -149,7 +148,6 @@
 			files = (
 				245FE95C2408E65000A2E358 /* LaunchScreen.storyboard in Resources */,
 				245FE9592408E65000A2E358 /* Preview Assets.xcassets in Resources */,
-				245FE9692408FB3700A2E358 /* Readme.md in Resources */,
 				245FE9562408E65000A2E358 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
