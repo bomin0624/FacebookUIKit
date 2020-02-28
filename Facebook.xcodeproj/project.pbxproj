@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		245FE9562408E65000A2E358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245FE9552408E65000A2E358 /* Assets.xcassets */; };
 		245FE9592408E65000A2E358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245FE9582408E65000A2E358 /* Preview Assets.xcassets */; };
 		245FE95C2408E65000A2E358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245FE95A2408E65000A2E358 /* LaunchScreen.storyboard */; };
+		245FE9642408E79500A2E358 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245FE9632408E79500A2E358 /* MainController.swift */; };
+		245FE9672408ECF600A2E358 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = 245FE9662408ECF600A2E358 /* LBTATools */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		245FE9582408E65000A2E358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		245FE95B2408E65000A2E358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		245FE95D2408E65000A2E358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245FE9632408E79500A2E358 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245FE9672408ECF600A2E358 /* LBTATools in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 				245FE95A2408E65000A2E358 /* LaunchScreen.storyboard */,
 				245FE95D2408E65000A2E358 /* Info.plist */,
 				245FE9572408E65000A2E358 /* Preview Content */,
+				245FE9632408E79500A2E358 /* MainController.swift */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
@@ -91,6 +96,9 @@
 			dependencies = (
 			);
 			name = Facebook;
+			packageProductDependencies = (
+				245FE9662408ECF600A2E358 /* LBTATools */,
+			);
 			productName = Facebook;
 			productReference = 245FE94C2408E64F00A2E358 /* Facebook.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +127,9 @@
 				Base,
 			);
 			mainGroup = 245FE9432408E64F00A2E358;
+			packageReferences = (
+				245FE9652408ECF600A2E358 /* XCRemoteSwiftPackageReference "LBTATools" */,
+			);
 			productRefGroup = 245FE94D2408E64F00A2E358 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245FE9642408E79500A2E358 /* MainController.swift in Sources */,
 				245FE9502408E64F00A2E358 /* AppDelegate.swift in Sources */,
 				245FE9522408E64F00A2E358 /* SceneDelegate.swift in Sources */,
 				245FE9542408E64F00A2E358 /* ContentView.swift in Sources */,
@@ -340,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		245FE9652408ECF600A2E358 /* XCRemoteSwiftPackageReference "LBTATools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhlvoong/LBTATools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		245FE9662408ECF600A2E358 /* LBTATools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 245FE9652408ECF600A2E358 /* XCRemoteSwiftPackageReference "LBTATools" */;
+			productName = LBTATools;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 245FE9442408E64F00A2E358 /* Project object */;
 }
