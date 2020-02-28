@@ -45,6 +45,7 @@
 		245FE9432408E64F00A2E358 = {
 			isa = PBXGroup;
 			children = (
+				245FE96B2408FD1900A2E358 /* README.md */,
 				245FE94E2408E64F00A2E358 /* Facebook */,
 				245FE94D2408E64F00A2E358 /* Products */,
 			);
@@ -69,7 +70,6 @@
 				245FE95D2408E65000A2E358 /* Info.plist */,
 				245FE9572408E65000A2E358 /* Preview Content */,
 				245FE9632408E79500A2E358 /* MainController.swift */,
-				245FE96B2408FD1900A2E358 /* README.md */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
