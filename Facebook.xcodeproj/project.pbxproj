@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241F12A02409FC6000826A32 /* PhotosGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F129F2409FC6000826A32 /* PhotosGridController.swift */; };
 		245FE9502408E64F00A2E358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245FE94F2408E64F00A2E358 /* AppDelegate.swift */; };
 		245FE9522408E64F00A2E358 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245FE9512408E64F00A2E358 /* SceneDelegate.swift */; };
 		245FE9542408E64F00A2E358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245FE9532408E64F00A2E358 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241F129F2409FC6000826A32 /* PhotosGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridController.swift; sourceTree = "<group>"; };
 		245FE94C2408E64F00A2E358 /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		245FE94F2408E64F00A2E358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		245FE9512408E64F00A2E358 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				245FE95D2408E65000A2E358 /* Info.plist */,
 				245FE9572408E65000A2E358 /* Preview Content */,
 				245FE9632408E79500A2E358 /* MainController.swift */,
+				241F129F2409FC6000826A32 /* PhotosGridController.swift */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				245FE9642408E79500A2E358 /* MainController.swift in Sources */,
 				245FE9502408E64F00A2E358 /* AppDelegate.swift in Sources */,
 				245FE9522408E64F00A2E358 /* SceneDelegate.swift in Sources */,
+				241F12A02409FC6000826A32 /* PhotosGridController.swift in Sources */,
 				245FE9542408E64F00A2E358 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
