@@ -1,4 +1,4 @@
 #  Facebook on UIKit
  Display the Facebook using UIKIt.
  
-![image](facebook.gif)
+![image](https://imgur.com/52jO3p7.gif)
